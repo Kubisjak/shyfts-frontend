@@ -1,0 +1,49 @@
+@import 'https://fonts.googleapis.com/css?family=Hind';
+
+.Signup {
+  text-align: left;
+  min-height: 100vh;
+  font-family: 'Hind', sans-serif;
+}
+
+.Signup-left{
+  float: left;
+  width: 42%;
+  background-color: #FFFFFF;
+  height: 100vh;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.10);
+}
+
+.Signup-left-logo{
+  padding-left: 19pt;
+  padding-top: 36pt;
+}
+
+.Signup-left-content{
+  background-color: red;
+  margin: auto;
+  padding: 10pt;
+  width: 50%;
+}
+
+.Signup-left-content-p{
+  font-family: "Hind";
+}
+
+.Signup-right{
+  float: right;
+  background-color: #37D37F;
+  width: 58%;
+  height: 100vh;
+}
+
+.Signup-left-input-box{
+  background: #FFFFFF;
+  border: 1px solid #A7B0B2;
+  border-radius: 6px;
+}
+
+.Signup-left-next-button{
+  background: #DBDFE0;
+  border-radius: 6px;
+}
