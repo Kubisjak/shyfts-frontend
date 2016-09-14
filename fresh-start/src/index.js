@@ -8,8 +8,8 @@ class App extends Component {
   constructor(props) {
     super (props)
 
-    this.setState = {
-      progress: 'team',
+    this.state={
+      progress: 'teamLeader',
       teamName: '',
       teamLeader: [],
       teamLeaderAdress: '',
@@ -22,7 +22,7 @@ class App extends Component {
 render () {
   return (
     <div className="Signup">
-      <SignupLeft />
+      <SignupLeft progress={this.state.progress}/>
       <SignupRight />
     </div>
   )

@@ -56,11 +56,38 @@
   padding: 0;
 }
 
-.Signup-left-input-box{
+.Signup-left-input-box-single{
   background: #FFFFFF;
   border: 1px solid #A7B0B2;
   border-radius: 6px;
   width: 96%;
+  height: 4.5vh;
+  font-size: 17px;
+  color: #A7B0B2;
+  letter-spacing: 0px;
+  line-height: 22px;
+  padding-left: 10pt;
+}
+
+.Signup-left-input-box-double-left{
+  background: #FFFFFF;
+  border: 1px solid #A7B0B2;
+  border-radius: 6px;
+  width: 40%;
+  height: 4.5vh;
+  font-size: 17px;
+  color: #A7B0B2;
+  letter-spacing: 0px;
+  line-height: 22px;
+  padding-left: 10pt;
+  margin-right: 10pt;
+}
+
+.Signup-left-input-box-double-right{
+  background: #FFFFFF;
+  border: 1px solid #A7B0B2;
+  border-radius: 6px;
+  width: 40%;
   height: 4.5vh;
   font-size: 17px;
   color: #A7B0B2;
@@ -80,7 +107,7 @@
 }
 
 .Signup-left-next-button{
-  background: #DBDFE0;
+  background: #37D37F;
   border-radius: 6px;
   border: 2px solid #FFFFFF;
   width: 180pt;
@@ -89,6 +116,7 @@
   font-size: 16px;
   color: #FFFFFF;
   letter-spacing: 0px;
+  cursor: pointer;
 }
 
 .Signup-right{
@@ -123,4 +151,5 @@
   letter-spacing: 0px;
   width: 180pt;
   height: 45pt;
+  cursor: pointer;
 }
